@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height">
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="64dp"
+        android:id="@+id/iv_thumbnail"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="@dimen/list_item_margin"
+        android:layout_marginBottom="@dimen/list_item_margin"
+        android:paddingLeft="@dimen/list_item_margin"
+        android:paddingStart="@dimen/list_item_margin"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_name"
+        android:layout_toRightOf="@+id/iv_thumbnail"
+        android:layout_toEndOf="@+id/iv_thumbnail"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:paddingEnd="@dimen/list_item_margin"
+        android:paddingRight="@dimen/list_item_margin"
+        android:layout_alignTop="@+id/iv_thumbnail"
+        android:layout_marginLeft="@dimen/list_item_margin"
+        android:layout_marginStart="@dimen/list_item_margin"
+        android:paddingTop="@dimen/list_item_margin"
+        android:lines="1"
+        android:textSize="@dimen/list_item_name_text_size"
+        android:textStyle="bold"
+        android:ellipsize="end"
+        android:text="Name"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_tags"
+        android:layout_below="@+id/tv_name"
+        android:layout_alignLeft="@+id/tv_name"
+        android:layout_alignStart="@+id/tv_name"
+        android:paddingTop="2dp"
+        android:paddingEnd="@dimen/list_item_margin"
+        android:paddingRight="@dimen/list_item_margin"
+        android:lines="1"
+        android:ellipsize="end"
+        android:text="Indian"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_status"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/list_item_margin"
+        android:paddingEnd="@dimen/list_item_margin"
+        android:paddingRight="@dimen/list_item_margin"
+        android:lines="1"
+        android:ellipsize="end"
+        android:text="status"/>
+
+</RelativeLayout>

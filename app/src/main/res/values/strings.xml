@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DoorDashLite</string>
+    <string name="list_activity_name">Discover</string>
+    <string name="offline_message">Network is unstable, please try again later</string>
+    <string name="default_error_message">Something went wrong, please try again later</string>
+    <string name="no_result_message">No more stores for current search</string>
+    <string name="title_activity_store_detail">StoreDetailActivity</string>
+</resources>
